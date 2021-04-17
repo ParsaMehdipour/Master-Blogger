@@ -1,4 +1,5 @@
 ﻿using MB.Domain.ArticleCategoryAgg;
+using MB.Infrastructure.EfCore.Mappings;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EfCore
@@ -15,6 +16,8 @@ namespace MB.Infrastructure.EfCore
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new ArticleCategoryConfiguration());
+
             base.OnModelCreating(modelBuilder);
         }
     }
