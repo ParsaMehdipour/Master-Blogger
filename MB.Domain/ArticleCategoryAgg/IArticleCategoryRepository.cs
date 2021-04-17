@@ -6,8 +6,7 @@ namespace MB.Domain.ArticleCategoryAgg
 {
     public interface IArticleCategoryRepository
     {
-        void Create();
-
-        
+        void Create(ArticleCategory category);
+        List<ArticleCategory> GetAll();
     }
 }
