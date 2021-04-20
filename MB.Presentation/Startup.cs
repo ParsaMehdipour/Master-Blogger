@@ -8,6 +8,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MB.Application.ArticleCategory;
+using MB.Application.Contracts.ArticleCategory;
+using MB.Domain.ArticleCategoryAgg;
+using MB.Infrastructure.EfCore;
+using MB.Infrastructure.EfCore.Repositories;
+using MB.Infrustructure.Core;
+using Microsoft.EntityFrameworkCore;
 
 namespace MB.Presentation
 {
@@ -23,6 +30,8 @@ namespace MB.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            Bootsrapper.Config(services,Configuration.GetConnectionString("MasterBloggerConnection"));
+
             services.AddRazorPages();
         }
 
