@@ -36,3 +36,11 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\MB.Presentation.genruntimeconfig.cache
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\MB.Presentation.csproj.CopyComplete
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Pages\ArticleDetails.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\MB.Presentation.csprojAssemblyReference.cache
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Error.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Index.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Privacy.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\_ViewStart.cshtml.g.cs

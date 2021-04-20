@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Application", "MB.Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Infrastructure.EfCore", "MB.Infrastructure.EfCore\MB.Infrastructure.EfCore.csproj", "{3CD421D6-E2F3-4E89-B26B-4BCA79C63526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Presentation", "MB.Presentation\MB.Presentation.csproj", "{C75F5AB1-5F14-45DB-B045-CAB686E73D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Presentation", "MB.Presentation\MB.Presentation.csproj", "{C75F5AB1-5F14-45DB-B045-CAB686E73D6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
