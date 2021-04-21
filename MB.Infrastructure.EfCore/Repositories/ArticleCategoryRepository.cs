@@ -23,7 +23,7 @@ namespace MB.Infrastructure.EfCore.Repositories
 
         public List<ArticleCategory> GetAll()
         {
-            return _context.ArticleCategories.ToList();
+            return _context.ArticleCategories.OrderByDescending(x=>x.Id).ToList();
         }
     }
 }
