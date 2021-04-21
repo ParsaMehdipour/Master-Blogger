@@ -87,3 +87,4 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\bin\Debug\net
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\bin\Debug\net5.0\MB.Infrustructure.Core.pdb
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Presentation\obj\Debug\net5.0\Razor\Areas\Admin\Pages\ArticleCategory\Create.cshtml.g.cs
