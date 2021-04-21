@@ -36,7 +36,9 @@ namespace MB.Application.ArticleCategory
 
         public void Create(CreateArticleCategory command)
         {
-            throw new System.NotImplementedException();
+            var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title);
+
+            _repository.Create(articleCategory);
         }
     }
 }
