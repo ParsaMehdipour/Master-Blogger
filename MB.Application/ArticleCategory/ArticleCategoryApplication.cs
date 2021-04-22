@@ -34,11 +34,28 @@ namespace MB.Application.ArticleCategory
 
         }
 
+        public EditArticleCategory Get(long id)
+        {
+            var article = _repository.Get(id);
+            return new EditArticleCategory
+            {
+                Id = article.Id,
+                Title = article.Title
+            };
+        }
+
         public void Create(CreateArticleCategory command)
         {
             var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title);
 
             _repository.Create(articleCategory);
+        }
+
+        public void Edit(EditArticleCategory command)
+        {
+            var articleCategory = _repository.Get(command.Id);
+            articleCategory.Edit(command.Title);
+            _repository.Save();
         }
     }
 }
