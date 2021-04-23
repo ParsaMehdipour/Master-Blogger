@@ -8,5 +8,7 @@ namespace MB.Application.Contracts.ArticleCategory
         EditArticleCategory Get(long id);
         void Create(CreateArticleCategory command);
         void Edit(EditArticleCategory command);
+        void Remove(long id);
+        void Activate(long id);
     }
 }
