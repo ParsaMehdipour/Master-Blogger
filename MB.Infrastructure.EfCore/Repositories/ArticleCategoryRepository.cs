@@ -31,6 +31,11 @@ namespace MB.Infrastructure.EfCore.Repositories
             return _context.ArticleCategories.OrderByDescending(x=>x.Id).ToList();
         }
 
+        public bool Exists(string title)
+        {
+            return _context.ArticleCategories.Any(x => x.Title == title);
+        }
+
         public void Save()
         {
             _context.SaveChanges();
