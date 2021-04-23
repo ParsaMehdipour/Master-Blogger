@@ -2,16 +2,19 @@
 using System.Globalization;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.ArticleCategoryAgg.Service;
 
 namespace MB.Application.ArticleCategory
 {
     public class ArticleCategoryApplication:IArticleCategoryApplication
     {
         private readonly IArticleCategoryRepository _repository;
+        private readonly IArticleCategoryService _service;
 
-        public ArticleCategoryApplication(IArticleCategoryRepository repository)
+        public ArticleCategoryApplication(IArticleCategoryRepository repository,IArticleCategoryService service)
         {
             _repository = repository;
+            _service = service;
         }
         public List<ArticleCategoryViewModel> List()
         {
@@ -46,7 +49,7 @@ namespace MB.Application.ArticleCategory
 
         public void Create(CreateArticleCategory command)
         {
-            var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title);
+            var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title,_service);
 
             _repository.Create(articleCategory);
         }
