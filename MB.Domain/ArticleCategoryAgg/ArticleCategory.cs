@@ -21,9 +21,14 @@ namespace MB.Domain.ArticleCategoryAgg
             Title = title;
         }
 
-        public void Deleted()
+        public void Remove()
         {
             isDeleted = true;
+        }
+
+        public void Activate()
+        {
+            isDeleted = false;
         }
     }
 }
