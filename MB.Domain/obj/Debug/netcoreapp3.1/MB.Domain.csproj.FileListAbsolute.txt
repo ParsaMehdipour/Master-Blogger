@@ -6,3 +6,4 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Domain\obj\Debug\netcoreap
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Domain\obj\Debug\netcoreapp3.1\MB.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Domain\obj\Debug\netcoreapp3.1\MB.Domain.dll
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Domain\obj\Debug\netcoreapp3.1\MB.Domain.pdb
+C:\Users\Iran Computer\source\repos\Master Blogger\MB.Domain\obj\Debug\netcoreapp3.1\MB.Domain.csprojAssemblyReference.cache
