@@ -1,4 +1,5 @@
 ﻿using System;
+using MB.Domain.ArticleCategoryAgg.Service;
 
 namespace MB.Domain.ArticleCategoryAgg
 {
@@ -9,8 +10,10 @@ namespace MB.Domain.ArticleCategoryAgg
         public bool isDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
 
-        public ArticleCategory(string title)
+        public ArticleCategory(string title,IArticleCategoryService service)
         {
+            service.CheckDuplication(title);
+            GaurdAgainstEmptyTitle(title);
             Title = title;
             isDeleted = false;
             CreationDate=DateTime.Now;
@@ -18,6 +21,7 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public void Edit(string title)
         {
+            GaurdAgainstEmptyTitle(title);
             Title = title;
         }
 
@@ -29,6 +33,12 @@ namespace MB.Domain.ArticleCategoryAgg
         public void Activate()
         {
             isDeleted = false;
+        }
+
+        public void GaurdAgainstEmptyTitle(string title)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
         }
     }
 }
