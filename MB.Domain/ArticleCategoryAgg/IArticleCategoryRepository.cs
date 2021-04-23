@@ -9,6 +9,7 @@ namespace MB.Domain.ArticleCategoryAgg
         void Create(ArticleCategory category);
         ArticleCategory Get(long id);
         List<ArticleCategory> GetAll();
+        bool Exists(string title);
         void Save();
     }
 }
