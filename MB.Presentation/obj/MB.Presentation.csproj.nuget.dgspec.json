@@ -1,0 +1,420 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Presentation\\MB.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "projectName": "MB.Application.Contracts",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj",
+        "projectName": "MB.Application",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+        "projectName": "MB.Domain",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+        "projectName": "MB.Infrastructure.EfCore",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj",
+        "projectName": "MB.Infrustructure.Core",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj"
+              },
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj"
+              },
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Presentation\\MB.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Presentation\\MB.Presentation.csproj",
+        "projectName": "MB.Presentation",
+        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Presentation\\MB.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Iran Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+              },
+              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
