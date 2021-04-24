@@ -1,4 +1,5 @@
 ﻿using System;
+using MB.Domain.ArticleCategoryAgg.Exceptions;
 
 namespace MB.Domain.ArticleCategoryAgg.Service
 {
@@ -14,7 +15,7 @@ namespace MB.Domain.ArticleCategoryAgg.Service
         public void CheckDuplication(string title)
         {
             if(_repository.Exists(title))
-                throw new Exception();
+                throw new DuplicationException("This Article Category Already Exists");
         }
     }
 }
