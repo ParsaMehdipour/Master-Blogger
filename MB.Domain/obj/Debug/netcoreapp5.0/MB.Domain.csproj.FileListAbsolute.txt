@@ -1,0 +1,12 @@
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\bin\Debug\netcoreapp5.0\MB.Domain.deps.json
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\bin\Debug\netcoreapp5.0\MB.Domain.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\bin\Debug\netcoreapp5.0\ref\MB.Domain.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\bin\Debug\netcoreapp5.0\MB.Domain.pdb
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.csprojAssemblyReference.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.AssemblyInfoInputs.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.AssemblyInfo.cs
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\ref\MB.Domain.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Domain\obj\Debug\netcoreapp5.0\MB.Domain.pdb

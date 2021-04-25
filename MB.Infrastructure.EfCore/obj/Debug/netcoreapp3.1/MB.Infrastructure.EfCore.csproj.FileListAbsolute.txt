@@ -13,3 +13,5 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrastructure.EfCore\obj\
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrastructure.EfCore\obj\Debug\netcoreapp3.1\MB.Infrastructure.EfCore.dll
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrastructure.EfCore\obj\Debug\netcoreapp3.1\MB.Infrastructure.EfCore.pdb
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrastructure.EfCore\obj\Debug\netcoreapp3.1\MB.Infrastructure.EfCore.genruntimeconfig.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Infrastructure.EfCore\obj\Debug\netcoreapp3.1\MB.Infrastructure.EfCore.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Infrastructure.EfCore\obj\Debug\netcoreapp3.1\MB.Infrastructure.EfCore.pdb

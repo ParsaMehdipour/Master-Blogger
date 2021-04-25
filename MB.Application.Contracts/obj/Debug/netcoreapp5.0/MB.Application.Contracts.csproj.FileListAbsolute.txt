@@ -1,0 +1,12 @@
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\bin\Debug\netcoreapp5.0\MB.Application.Contracts.deps.json
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\bin\Debug\netcoreapp5.0\MB.Application.Contracts.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\bin\Debug\netcoreapp5.0\ref\MB.Application.Contracts.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\bin\Debug\netcoreapp5.0\MB.Application.Contracts.pdb
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.csprojAssemblyReference.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.AssemblyInfo.cs
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\ref\MB.Application.Contracts.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application.Contracts\obj\Debug\netcoreapp5.0\MB.Application.Contracts.pdb

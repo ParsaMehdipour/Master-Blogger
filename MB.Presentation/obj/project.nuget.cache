@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gA56Jg2mOU/f84YBc4ltR9oAcBXqs3sj9DEpsQzSA2QNkRDNiUwCnVvTo2TX2Qv01vMe6801VC/RCu8oB8nGIQ==",
+  "dgSpecHash": "McJLW5yq6fGzfP4aNLpn653xTzbqIaNjH2k2yVjY0nqlUP4YZ3loyOWymBa9RWBQDHqzSGwga/e4Y7Xtcluh0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Presentation\\MB.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Presentation\\MB.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Iran Computer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Iran Computer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

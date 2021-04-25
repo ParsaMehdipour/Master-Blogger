@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Lwu3icCA+K5WKjQ6DzL5p4rf7uFAG0QJ4Nt4+VTqHadIP5bdeeJi5v02cxgIM2Jv6T0mU1lCnDBYp4NQrUmJg==",
+  "dgSpecHash": "Zziw02XrywG7CttqnCL5McBUDzwjPM09Ybgy8JiHaF1e8h6+Cd6CovIQ6xhHQD/Znm6RE10lO0ayeAozbtW2hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj",
+  "projectFilePath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrustructure.Core\\MB.Infrustructure.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Iran Computer\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

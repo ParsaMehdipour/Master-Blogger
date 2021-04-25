@@ -12,3 +12,5 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Application\obj\Debug\netc
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Application\obj\Debug\netcoreapp3.1\MB.Application.csproj.CopyComplete
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Application\obj\Debug\netcoreapp3.1\MB.Application.dll
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Application\obj\Debug\netcoreapp3.1\MB.Application.pdb
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application\obj\Debug\netcoreapp3.1\MB.Application.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Application\obj\Debug\netcoreapp3.1\MB.Application.pdb

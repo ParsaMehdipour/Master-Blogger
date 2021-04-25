@@ -16,3 +16,5 @@ C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrustructure.Core\obj\De
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrustructure.Core\obj\Debug\netcoreapp3.1\MB.Infrustructure.Core.csproj.CopyComplete
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrustructure.Core\obj\Debug\netcoreapp3.1\MB.Infrustructure.Core.dll
 C:\Users\Iran Computer\source\repos\Master Blogger\MB.Infrustructure.Core\obj\Debug\netcoreapp3.1\MB.Infrustructure.Core.pdb
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Infrustructure.Core\obj\Debug\netcoreapp3.1\MB.Infrustructure.Core.dll
+C:\Users\Iran Computer\source\repos\ParsaMehdipour\Master-Blogger\MB.Infrustructure.Core\obj\Debug\netcoreapp3.1\MB.Infrustructure.Core.pdb

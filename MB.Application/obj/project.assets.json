@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/MB.Application.Contracts.dll": {}
         },
@@ -14,7 +14,7 @@
       },
       "MB.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/MB.Domain.dll": {}
         },
@@ -37,7 +37,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "MB.Application.Contracts >= 1.0.0",
       "MB.Domain >= 1.0.0"
     ]
@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
       "projectName": "MB.Application",
-      "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
+      "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
       "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\obj\\",
+      "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -63,21 +63,21 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {
-            "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
             },
-            "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj": {
-              "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj"
+            "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj": {
+              "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj"
             }
           }
         }
@@ -89,8 +89,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "imports": [
           "net461",
           "net462",
