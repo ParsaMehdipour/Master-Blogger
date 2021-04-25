@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {}
+    "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
+    "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj",
         "projectName": "MB.Domain",
-        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+        "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj",
         "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {
+    "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
         "projectName": "MB.Infrastructure.EfCore",
-        "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
+        "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj",
         "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Infrastructure.EfCore\\obj\\",
+        "outputPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Infrastructure.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
-                "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj"
+              "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj": {
+                "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj"
               }
             }
           }

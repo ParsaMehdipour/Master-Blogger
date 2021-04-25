@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
       "projectName": "MB.Application",
-      "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\MB.Application.csproj",
+      "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\MB.Application.csproj",
       "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application\\obj\\",
+      "outputPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -73,11 +73,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
             },
-            "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj": {
-              "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj"
+            "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj": {
+              "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj"
             }
           }
         }

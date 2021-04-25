@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj",
       "projectName": "MB.Domain",
-      "projectPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\MB.Domain.csproj",
+      "projectPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\MB.Domain.csproj",
       "packagesPath": "C:\\Users\\Iran Computer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Iran Computer\\source\\repos\\Master Blogger\\MB.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Iran Computer\\Source\\Repos\\ParsaMehdipour\\Master-Blogger\\MB.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
