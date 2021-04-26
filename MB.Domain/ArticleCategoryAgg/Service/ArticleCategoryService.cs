@@ -3,7 +3,7 @@ using MB.Domain.ArticleCategoryAgg.Exceptions;
 
 namespace MB.Domain.ArticleCategoryAgg.Service
 {
-    class ArticleCategoryService : IArticleCategoryService
+    public class ArticleCategoryService : IArticleCategoryService
     {
         private readonly IArticleCategoryRepository _repository;
 
