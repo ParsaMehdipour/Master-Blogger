@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
 
 namespace MB.Domain.ArticleCategoryAgg
@@ -10,6 +12,8 @@ namespace MB.Domain.ArticleCategoryAgg
         public bool isDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
 
+        public ICollection<Article> Articles { get; set; }
+
         public ArticleCategory(string title,IArticleCategoryService service)
         {
             service.CheckDuplication(title);
@@ -17,6 +21,7 @@ namespace MB.Domain.ArticleCategoryAgg
             Title = title;
             isDeleted = false;
             CreationDate=DateTime.Now;
+            Articles = new List<Article>();
         }
 
         public void Edit(string title)
