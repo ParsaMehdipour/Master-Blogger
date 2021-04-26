@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MB.Application.Article;
 using MB.Application.ArticleCategory;
+using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
+using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.ArticleCategoryAgg.Service;
 using MB.Infrastructure.EfCore;
 using MB.Infrastructure.EfCore.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -15,9 +19,15 @@ namespace MB.Infrustructure.Core
     {
         public static void Config(IServiceCollection services, string conectionstring)
         {
-            services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
+            services.AddTransient<IArticleCategoryService, ArticleCategoryService>();
 
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
+
+            services.AddTransient<IArticleRepository, ArticleRepository>();
+
+            services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
+
+            services.AddTransient<IArticleApplication, ArticleApplication>();
 
             services.AddDbContext<MasterBloggerDbContext>(options =>
             {
