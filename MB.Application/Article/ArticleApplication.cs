@@ -46,5 +46,19 @@ namespace MB.Application.Article
             article.Edit(command.Title,command.ShortDescription,command.Content,command.Image,command.ArticleCategoryId);
             _repository.Save();
         }
+
+        public void Remove(long id)
+        {
+            var article = _repository.Get(id);
+            article.Remove();
+            _repository.Save();
+        }
+
+        public void Activate(long id)
+        {
+            var article = _repository.Get(id);
+            article.Activate();
+            _repository.Save();
+        }
     }
 }
