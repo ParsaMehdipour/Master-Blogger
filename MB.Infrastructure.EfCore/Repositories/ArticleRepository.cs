@@ -32,5 +32,11 @@ namespace MB.Infrastructure.EfCore.Repositories
 
                 }).ToList();
         }
+
+        public void CreateAndSave(Article article)
+        {
+            _context.Articles.Add(article);
+            _context.SaveChanges();
+        }
     }
 }
