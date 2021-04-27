@@ -33,9 +33,19 @@ namespace MB.Infrastructure.EfCore.Repositories
                 }).ToList();
         }
 
+        public Article Get(long id)
+        {
+            return _context.Articles.FirstOrDefault(x => x.Id == id);
+        }
+
         public void CreateAndSave(Article article)
         {
             _context.Articles.Add(article);
+            _context.SaveChanges();
+        }
+
+        public void Save()
+        {
             _context.SaveChanges();
         }
     }
