@@ -6,6 +6,7 @@ using MB.Application.ArticleCategory;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleAgg;
+using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
 using MB.Infrastructure.EfCore;
@@ -20,6 +21,8 @@ namespace MB.Infrustructure.Core
         public static void Config(IServiceCollection services, string conectionstring)
         {
             services.AddTransient<IArticleCategoryService, ArticleCategoryService>();
+
+            services.AddTransient<IArticleValidatorService, ArticleValidatorService>();
 
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
 
