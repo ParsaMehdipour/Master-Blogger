@@ -8,6 +8,7 @@ namespace MB.Domain.ArticleAgg
         List<ArticleViewModel> GetList();
         Article Get(long id);
         void CreateAndSave(Article article);
+        bool Exists(string titile);
         void Save();
     }
 }
