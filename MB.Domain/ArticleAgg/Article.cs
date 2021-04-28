@@ -22,6 +22,8 @@ namespace MB.Domain.ArticleAgg
 
         public Article(string title, string shortDescription, string content, string image, long articleCategoryId)
         {
+            Validation(title,articleCategoryId);
+
             Title = title;
             ShortDescription = shortDescription;
             Content = content;
@@ -29,10 +31,12 @@ namespace MB.Domain.ArticleAgg
             ArticleCategoryId = articleCategoryId;
             IsDeleted = false;
             CreationDate=DateTime.Now;
-        } 
+        }
 
         public void Edit(string title, string shortDescription, string content, string image, long articleCategoryId)
         {
+            Validation(title,articleCategoryId);
+
             Title = title;
             ShortDescription = shortDescription;
             Content = content;
@@ -49,5 +53,15 @@ namespace MB.Domain.ArticleAgg
         {
             IsDeleted = false;
         }
+
+        public void Validation(string title, long articleCategoryid)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new NullReferenceException();
+
+            if (articleCategoryid == 0)
+                throw new ArgumentOutOfRangeException();
+        }
+
     }
 }
