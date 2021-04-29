@@ -11,6 +11,7 @@ using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
 using MB.Infrastructure.EfCore;
 using MB.Infrastructure.EfCore.Repositories;
+using MB.Infrastructure.Query.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -31,6 +32,8 @@ namespace MB.Infrustructure.Core
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
 
             services.AddTransient<IArticleApplication, ArticleApplication>();
+
+            services.AddTransient<IArticleQuery, ArticleQuery>();
 
             services.AddDbContext<MasterBloggerDbContext>(options =>
             {
