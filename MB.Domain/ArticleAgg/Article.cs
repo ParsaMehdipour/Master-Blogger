@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.CommentAgg;
 
 namespace MB.Domain.ArticleAgg
 {
@@ -13,7 +15,9 @@ namespace MB.Domain.ArticleAgg
         public bool IsDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
         public long ArticleCategoryId { get; private set; }
+
         public ArticleCategory ArticleCategory { get; private set; }
+        public ICollection<Comment> Comments { get; set; }
 
         public Article()
         {
