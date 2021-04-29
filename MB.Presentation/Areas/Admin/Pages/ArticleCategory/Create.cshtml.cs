@@ -15,6 +15,7 @@ namespace MB.Presentation.Areas.Admin.Pages.ArticleCategory
 
         public void OnGet()
         {
+            ViewData["Title"] = "Create";
         }
 
         public RedirectToPageResult OnPost(CreateArticleCategory command)

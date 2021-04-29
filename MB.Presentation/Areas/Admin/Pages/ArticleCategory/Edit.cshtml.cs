@@ -21,6 +21,8 @@ namespace MB.Presentation.Areas.Admin.Pages.ArticleCategory
 
         public void OnGet(long id)
         {
+            ViewData["Title"] = "Edit";
+
             ArticleCategory = _application.Get(id);
         }
 

@@ -19,6 +19,8 @@ namespace MB.Presentation.Areas.Admin.Pages.ArticleCategory
 
         public void OnGet()
         {
+            ViewData["Title"] = "Article Category Management";
+
             ArticleCategoryViewModels = _application.List();
         }
 
