@@ -17,6 +17,7 @@ namespace MB.Presentation.Areas.Admin.Pages.Article
         }
         public void OnGet()
         {
+            ViewData["Title"] = "Article Management";
             Articles = _application.GetList();
         }
 

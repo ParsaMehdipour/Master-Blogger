@@ -25,6 +25,8 @@ namespace MB.Presentation.Areas.Admin.Pages.Article
 
         public void OnGet(long id)
         {
+            ViewData["Title"] = "Edit";
+
             ArticleCategories = _articleCategoryApplication.List()
                 .Select(x => new SelectListItem(x.Title, x.Id.ToString()))
                 .ToList();
