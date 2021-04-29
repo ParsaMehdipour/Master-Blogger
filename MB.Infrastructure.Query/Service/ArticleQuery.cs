@@ -23,11 +23,25 @@ namespace MB.Infrastructure.Query.Service
                     Id = x.Id,
                     Title = x.Title,
                     ShortDescription = x.ShortDescription,
-                    Content = x.Content,
                     CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                     Image = x.Image,
                     ArticleCategory = x.ArticleCategory.Title
                 }).ToList();
+        }
+
+        public ArticleQueryView GetOneArticle(long id)
+        {
+            return _context.Articles.Include(x => x.ArticleCategory)
+                .Select(x => new ArticleQueryView
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    ShortDescription = x.ShortDescription,
+                    Content = x.Content,
+                    CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
+                    Image = x.Image,
+                    ArticleCategory = x.ArticleCategory.Title
+                }).FirstOrDefault(x => x.Id == id);
         }
     }
 }
