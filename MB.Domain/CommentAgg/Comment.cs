@@ -7,6 +7,7 @@ namespace MB.Domain.CommentAgg
     {
         public long Id { get; private set; }
         public string Name { get; private set; }
+        public string Email { get; private set; }
         public string Message { get; private set; }
         public int Status { get; private set; }
         public DateTime CreationDate { get; private set; }
@@ -19,10 +20,11 @@ namespace MB.Domain.CommentAgg
             
         }
 
-        public Comment(long id, string name, string message, long articleId)
+        public Comment(long id, string name,string email, string message, long articleId)
         {
             Id = id;
             Name = name;
+            Email = email;
             Message = message;
             ArticleId = articleId;
             Status = Statuses.New;
