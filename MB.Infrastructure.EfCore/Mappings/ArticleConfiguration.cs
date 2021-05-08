@@ -11,19 +11,30 @@ namespace MB.Infrastructure.EfCore.Mappings
             builder.ToTable("Articles");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Title);
+            builder.Property(x => x.Title)
+                .IsRequired().
+                HasMaxLength(255);
 
-            builder.Property(x => x.ShortDescription);
+            builder.
+                Property(x => x.ShortDescription)
+                .IsRequired();
 
-            builder.Property(x => x.Content);
+            builder.Property(x => x.Content)
+                .IsRequired();
 
-            builder.Property(x => x.Image);
+            builder.
+                Property(x => x.Image)
+                .IsRequired()
+                .HasMaxLength(255);
 
-            builder.Property(x => x.IsDeleted);
 
-            builder.Property(x => x.CreationDate);
+            builder.
+                Property(x => x.IsDeleted);
 
-            builder.Property(x => x.Title);
+
+            builder.
+                Property(x => x.CreationDate);
+
 
             builder.HasOne(x => x.ArticleCategory)
                 .WithMany(x => x.Articles)
