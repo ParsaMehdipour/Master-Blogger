@@ -1,7 +1,6 @@
 ﻿using MB.Domain.CommentAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Security.Cryptography.X509Certificates;
 
 namespace MB.Infrastructure.EfCore.Mappings
 {
@@ -12,10 +11,19 @@ namespace MB.Infrastructure.EfCore.Mappings
             builder.ToTable("Comments");
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Name);
-            builder.Property(x=>x.Email);
+            builder.Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(255);
+           
+            builder.Property(x=>x.Email)
+                .IsRequired()
+                .HasMaxLength(255);
+           
             builder.Property(x => x.CreationDate);
-            builder.Property(x => x.Message);
+
+            builder.Property(x => x.Message)
+                .IsRequired();
+
             builder.Property(x => x.Status);
 
             builder.HasOne(x => x.Article)
