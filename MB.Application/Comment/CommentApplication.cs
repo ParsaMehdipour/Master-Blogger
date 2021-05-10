@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Comment;
+﻿using System.Collections.Generic;
+using MB.Application.Contracts.Comment;
 using MB.Domain.CommentAgg;
 
 namespace MB.Application.Comment
@@ -10,6 +11,11 @@ namespace MB.Application.Comment
         public CommentApplication(ICommentRepository repository)
         {
             _repository = repository;
+        }
+
+        public List<CommentViewModel> List()
+        {
+            return _repository.GetList();
         }
 
         public void Add(AddComment command)
