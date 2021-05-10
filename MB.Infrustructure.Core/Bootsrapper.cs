@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 using MB.Application.Article;
 using MB.Application.ArticleCategory;
+using MB.Application.Comment;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
+using MB.Application.Contracts.Comment;
 using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
+using MB.Domain.CommentAgg;
 using MB.Infrastructure.EfCore;
 using MB.Infrastructure.EfCore.Repositories;
 using MB.Infrastructure.Query.Service;
@@ -32,6 +35,10 @@ namespace MB.Infrustructure.Core
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
 
             services.AddTransient<IArticleApplication, ArticleApplication>();
+
+            services.AddTransient<ICommentRepository, CommentRepository>();
+
+            services.AddTransient<ICommentApplication, CommentApplication>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
 
