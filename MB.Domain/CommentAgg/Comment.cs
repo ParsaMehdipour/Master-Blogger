@@ -20,9 +20,8 @@ namespace MB.Domain.CommentAgg
             
         }
 
-        public Comment(long id, string name,string email, string message, long articleId)
+        public Comment(string name,string email, string message, long articleId)
         {
-            Id = id;
             Name = name;
             Email = email;
             Message = message;
