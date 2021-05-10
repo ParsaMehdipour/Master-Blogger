@@ -27,7 +27,7 @@ namespace MB.Presentation.Pages
         {
             _commentApplication.Add(command);
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./ArticleDetails" , new {id = command.ArticleId});
         }
     }
 }
