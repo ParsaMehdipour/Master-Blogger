@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using _01.Framework.Domain;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.CommentAgg;
 
 namespace MB.Domain.ArticleAgg
 {
-    public class Article
+    public class Article:BaseDomain<long>
     {
-        public long Id { get; private set; }
         public string Title { get; private set; }
         public string ShortDescription { get; private set; }
         public string Content { get; private set; }
         public string Image { get; private set; }
         public bool IsDeleted { get; private set; }
-        public DateTime CreationDate { get; private set; }
         public long ArticleCategoryId { get; private set; }
 
         public ArticleCategory ArticleCategory { get; private set; }
@@ -34,7 +33,6 @@ namespace MB.Domain.ArticleAgg
             Image = image;
             ArticleCategoryId = articleCategoryId;
             IsDeleted = false;
-            CreationDate=DateTime.Now;
         }
 
         public void Edit(string title, string shortDescription, string content, string image, long articleCategoryId)
