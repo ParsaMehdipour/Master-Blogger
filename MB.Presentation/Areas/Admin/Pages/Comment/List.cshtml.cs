@@ -22,5 +22,19 @@ namespace MB.Presentation.Areas.Admin.Pages.Comment
         {
             Comments = _application.List();
         }
+
+        public RedirectToPageResult OnPostConfirm(long id)
+        {
+            _application.Confirm(id);
+
+            return RedirectToPage("./List");
+        }
+
+        public RedirectToPageResult OnPostCancel(long id)
+        {
+            _application.Cancel(id);
+
+            return RedirectToPage("./List");
+        }
     }
 }
