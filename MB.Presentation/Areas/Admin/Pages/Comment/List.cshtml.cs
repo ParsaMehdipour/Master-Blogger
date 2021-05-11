@@ -20,6 +20,8 @@ namespace MB.Presentation.Areas.Admin.Pages.Comment
         }
         public void OnGet()
         {
+            ViewData["Title"] = "Comment Management";
+
             Comments = _application.List();
         }
 
