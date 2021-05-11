@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using MB.Domain.CommentAgg;
 using MB.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,7 +19,9 @@ namespace MB.Infrastructure.Query.Service
 
         public List<ArticleQueryView> GetArticles()
         {
-            return _context.Articles.Include(x => x.ArticleCategory)
+            return _context.Articles
+                .Include(x=>x.Comments)
+                .Include(x => x.ArticleCategory)
                 .Select(x => new ArticleQueryView
                 {
                     Id = x.Id,
@@ -25,7 +29,8 @@ namespace MB.Infrastructure.Query.Service
                     ShortDescription = x.ShortDescription,
                     CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                     Image = x.Image,
-                    ArticleCategory = x.ArticleCategory.Title
+                    ArticleCategory = x.ArticleCategory.Title,
+                    CommentsCount = x.Comments.Count(x=>x.Status == Statuses.Confirmed)
                 }).ToList();
         }
 
@@ -40,8 +45,26 @@ namespace MB.Infrastructure.Query.Service
                     Content = x.Content,
                     CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture),
                     Image = x.Image,
-                    ArticleCategory = x.ArticleCategory.Title
+                    ArticleCategory = x.ArticleCategory.Title,
+                    Comments = MapComments(x.Comments.Where(x=>x.Status == Statuses.Confirmed))
                 }).FirstOrDefault(x => x.Id == id);
+        }
+
+        private static List<CommentQueryView> MapComments(IEnumerable<Comment> comments)
+        {
+            List<CommentQueryView> list = new List<CommentQueryView>();
+
+            foreach (var comment in comments)
+            {
+                list.Add(new CommentQueryView
+                {
+                    Name = comment.Name,
+                    Message = comment.Message,
+                    CreationDate = comment.CreationDate.ToString(CultureInfo.InvariantCulture)
+                });
+            }
+
+            return list;
         }
     }
 }
