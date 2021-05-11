@@ -31,9 +31,19 @@ namespace MB.Infrastructure.EfCore.Repositories
 
         }
 
+        public Comment GetComment(long id)
+        {
+            return _context.Comments.FirstOrDefault(c => c.Id == id);
+        }
+
         public void CreateAndSave(Comment comment)
         {
             _context.Comments.Add(comment);
+            _context.SaveChanges();
+        }
+
+        public void Save()
+        {
             _context.SaveChanges();
         }
     }
