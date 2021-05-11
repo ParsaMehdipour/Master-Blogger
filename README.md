@@ -1,6 +1,6 @@
 # Master-Blogger
 Master Blogger project From Asp Net Core 5 Course
-This Is A Blog WebSite
+This Is A Blog WebSite.
 It Is Just For Training Purposes But Feel Free To Check It Out
 
 ![Screenshot (20)](https://user-images.githubusercontent.com/75223567/117725386-4efbd780-b1fa-11eb-85e6-49217066212c.png)
