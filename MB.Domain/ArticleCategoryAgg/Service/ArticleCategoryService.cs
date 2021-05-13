@@ -14,7 +14,7 @@ namespace MB.Domain.ArticleCategoryAgg.Service
 
         public void CheckDuplication(string title)
         {
-            if(_repository.Exists(title))
+            if (_repository.Exists(x => x.Title == title))
                 throw new DuplicationException("This Article Category Already Exists");
         }
     }

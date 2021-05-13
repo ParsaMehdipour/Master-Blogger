@@ -12,7 +12,7 @@ namespace MB.Domain.ArticleAgg.Services
         }
         public void CheckDuplication(string title)
         {
-            if(_repository.Exists(title))
+            if (_repository.Exists(x => x.Title == title))
                 throw new DuplicationException();
         }
     }
