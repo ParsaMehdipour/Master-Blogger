@@ -21,25 +21,25 @@ namespace MB.Application.Comment
         public void Add(AddComment command)
         {
             var comment = new Domain.CommentAgg.Comment(command.Name, command.Email, command.Message, command.ArticleId);
-            _repository.CreateAndSave(comment);
+            _repository.Create(comment);
         }
 
         public void Confirm(long id)
         {
-            var comment = _repository.GetComment(id);
+            var comment = _repository.Get(id);
 
             comment.Confirm();
 
-            _repository.Save();
+            //_repository.Save();
         }
 
         public void Cancel(long id)
         {
-            var comment = _repository.GetComment(id);
+            var comment = _repository.Get(id);
 
             comment.Cancel();
 
-            _repository.Save();
+            //_repository.Save();
         }
     }
 }

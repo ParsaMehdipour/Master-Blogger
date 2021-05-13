@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
@@ -20,21 +21,15 @@ namespace MB.Application.ArticleCategory
         {
            var list = new List<ArticleCategoryViewModel>();
 
-           var categoryArticles = _repository.GetAll();
+           var articleCategories = _repository.GetAll();
 
-           foreach (var item in categoryArticles)
+           return articleCategories.Select(c => new ArticleCategoryViewModel
            {
-               list.Add(new ArticleCategoryViewModel
-               {
-                   Id = item.Id,
-                   Title = item.Title,
-                   IsDeleted = item.isDeleted,
-                   CreationDate = item.CreationDate.ToString(CultureInfo.InvariantCulture)
-               });
-           }
-
-           return list;
-
+               Id = c.Id,
+               Title = c.Title,
+               IsDeleted = c.isDeleted,
+               CreationDate = c.CreationDate.ToString(CultureInfo.InvariantCulture)
+           }).OrderByDescending(c => c.Id).ToList();
         }
 
         public EditArticleCategory Get(long id)
@@ -58,21 +53,21 @@ namespace MB.Application.ArticleCategory
         {
             var articleCategory = _repository.Get(command.Id);
             articleCategory.Edit(command.Title);
-            _repository.Save();
+            //_repository.Save();
         }
 
         public void Remove(long id)
         {
             var articleCategory = _repository.Get(id);
             articleCategory.Remove();
-            _repository.Save();
+            //_repository.Save();
         }
 
         public void Activate(long id)
         {
             var articleCategory = _repository.Get(id);
             articleCategory.Activate();
-            _repository.Save();
+            //_repository.Save();
         }
     }
 }

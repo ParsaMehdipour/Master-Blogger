@@ -37,28 +37,28 @@ namespace MB.Application.Article
                 Article(command.Title, command.ShortDescription, command.Content, command.Image,
                     command.ArticleCategoryId);
             
-            _repository.CreateAndSave(article);
+            _repository.Create(article);
         }
 
         public void Edit(EditArticle command)
         {
             var article = _repository.Get(command.Id);
             article.Edit(command.Title,command.ShortDescription,command.Content,command.Image,command.ArticleCategoryId);
-            _repository.Save();
+            //_repository.Save();
         }
 
         public void Remove(long id)
         {
             var article = _repository.Get(id);
             article.Remove();
-            _repository.Save();
+            //_repository.Save();
         }
 
         public void Activate(long id)
         {
             var article = _repository.Get(id);
             article.Activate();
-            _repository.Save();
+            //_repository.Save();
         }
     }
 }
