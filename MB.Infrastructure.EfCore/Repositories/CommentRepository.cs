@@ -1,17 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _01.Framework.Infrastructure;
 using MB.Application.Contracts.Comment;
 using MB.Domain.CommentAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EfCore.Repositories
 {
-    public class CommentRepository:ICommentRepository
+    public class CommentRepository : BaseRepository<long, Comment>, ICommentRepository
     {
         private readonly MasterBloggerDbContext _context;
 
-        public CommentRepository(MasterBloggerDbContext context)
+        public CommentRepository(MasterBloggerDbContext context) : base(context)
         {
             _context = context;
         }

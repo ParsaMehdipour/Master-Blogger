@@ -1,18 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Security.Cryptography.X509Certificates;
+using _01.Framework.Infrastructure;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 
 namespace MB.Infrastructure.EfCore.Repositories
 {
-    public class ArticleRepository:IArticleRepository
+    public class ArticleRepository : BaseRepository<long, Article>, IArticleRepository
     {
         private readonly MasterBloggerDbContext _context;
 
-        public ArticleRepository(MasterBloggerDbContext context)
+        public ArticleRepository(MasterBloggerDbContext context) : base(context)
         {
             _context = context;
         }
@@ -33,25 +36,5 @@ namespace MB.Infrastructure.EfCore.Repositories
                 }).ToList();
         }
 
-        public Article Get(long id)
-        {
-            return _context.Articles.FirstOrDefault(x => x.Id == id);
-        }
-
-        public void CreateAndSave(Article article)
-        {
-            _context.Articles.Add(article);
-            _context.SaveChanges();
-        }
-
-        public bool Exists(string titile)
-        {
-            return _context.Articles.Any(x => x.Title == titile);
-        }
-
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
     }
 }
