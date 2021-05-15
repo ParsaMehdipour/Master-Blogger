@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using _01.Framework.Infrastructure;
 using MB.Application.Article;
 using MB.Application.ArticleCategory;
 using MB.Application.Comment;
@@ -41,6 +42,8 @@ namespace MB.Infrustructure.Core
             services.AddTransient<ICommentApplication, CommentApplication>();
 
             services.AddTransient<IArticleQuery, ArticleQuery>();
+
+            services.AddTransient<IUnitOfWork, UnitOfWorkEf>();
 
             services.AddDbContext<MasterBloggerDbContext>(options =>
             {
