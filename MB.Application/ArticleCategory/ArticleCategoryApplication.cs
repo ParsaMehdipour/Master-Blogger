@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using _01.Framework.Infrastructure;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Service;
@@ -11,11 +12,13 @@ namespace MB.Application.ArticleCategory
     {
         private readonly IArticleCategoryRepository _repository;
         private readonly IArticleCategoryService _service;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ArticleCategoryApplication(IArticleCategoryRepository repository,IArticleCategoryService service)
+        public ArticleCategoryApplication(IArticleCategoryRepository repository,IArticleCategoryService service,IUnitOfWork unitOfWork)
         {
             _repository = repository;
             _service = service;
+            _unitOfWork = unitOfWork;
         }
         public List<ArticleCategoryViewModel> List()
         {
@@ -44,30 +47,35 @@ namespace MB.Application.ArticleCategory
 
         public void Create(CreateArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = new Domain.ArticleCategoryAgg.ArticleCategory(command.Title,_service);
 
             _repository.Create(articleCategory);
+            _unitOfWork.CommitTran();
         }
 
         public void Edit(EditArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _repository.Get(command.Id);
             articleCategory.Edit(command.Title);
-            //_repository.Save();
+            _unitOfWork.CommitTran();
         }
 
         public void Remove(long id)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _repository.Get(id);
             articleCategory.Remove();
-            //_repository.Save();
+            _unitOfWork.CommitTran();
         }
 
         public void Activate(long id)
         {
+            _unitOfWork.BeginTran();
             var articleCategory = _repository.Get(id);
             articleCategory.Activate();
-            //_repository.Save();
+            _unitOfWork.CommitTran();
         }
     }
 }
