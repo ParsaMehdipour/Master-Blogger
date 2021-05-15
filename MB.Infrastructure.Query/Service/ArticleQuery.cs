@@ -22,6 +22,7 @@ namespace MB.Infrastructure.Query.Service
             return _context.Articles
                 .Include(x=>x.Comments)
                 .Include(x => x.ArticleCategory)
+                .Where(x=>x.IsDeleted == false)
                 .Select(x => new ArticleQueryView
                 {
                     Id = x.Id,
